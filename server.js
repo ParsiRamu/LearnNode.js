@@ -3,13 +3,14 @@ const http = require("http")
 
 const server = http.createServer((req,res)=>{
 
-    if(req.url==="/getSecretData"){
-     res.end("There is No Secret Data")
-    }
-      res.end("Helloworld!")
+        if (req.url==="/getData"){
+               return  res.end("It was the Data Page")
+
+        }
+        res.end("Hello Worldd!")
 })
 
-server.listen(3500)
+server.listen(7000)
 
 
 ///NEED TO PLAACE "RETURN"

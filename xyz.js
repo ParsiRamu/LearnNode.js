@@ -1,9 +1,7 @@
 
 
 console.log("Necessity Code")
-z = "RameshamPeta"
-console.log(__filename)
-console.log(__dirname)
+z = "RameshamPeta" 
 
 console.log(module.exports)
-module.exports = z
+module.exports = {z} 
